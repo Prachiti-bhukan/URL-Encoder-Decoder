@@ -24,10 +24,10 @@ else
 
 function urlEncode(givenUrl)
 {
-console.log(`\n\nThe encoded URL is --->\n\n${encodeURIComponent("https://workat.tech/ide")}`);
+console.log(`\n\nThe encoded URL is --->\n\n${encodeURIComponent(givenUrl)}`);
 }
 
 function urlDecode(givenUrl)
 {
-console.log(`\n\nThe Decoded URL is --->\n\n${decodeURIComponent('https%3A%2F%2Fworkat.tech%2Fide')}`);
+console.log(`\n\nThe Decoded URL is --->\n\n${decodeURIComponent(givenUrl)}`);
 }
